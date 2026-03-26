@@ -1,0 +1,727 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Alex Johnson",
+      "email": "alex.johnson@example.com",
+      "location": "Guelph, ON",
+      "interests": [
+        "Sports",
+        "Social",
+        "Wellness"
+      ],
+      "events_attended": 7,
+      "events_hosted": 1,
+      "achievements_earned": [
+        "1",
+        "2"
+      ],
+      "notifications": [
+        {
+          "id": "n1",
+          "title": "New event nearby!",
+          "message": "Basketball game starting in 2 hours",
+          "time": "5 min ago",
+          "read": false
+        },
+        {
+          "id": "n2",
+          "title": "Achievement unlocked!",
+          "message": "You earned the \"Social Butterfly\" badge",
+          "time": "2 hours ago",
+          "read": true
+        }
+      ],
+      "settings": {
+        "max_distance_mi": 5,
+        "max_group_size": 20,
+        "notifications_enabled": true
+      }
+    },
+    {
+      "id": "u2",
+      "name": "Priya Sharma",
+      "email": "priya.sharma@example.com",
+      "location": "Waterloo, ON",
+      "interests": [
+        "Study",
+        "Tech",
+        "Arts"
+      ],
+      "events_attended": 12,
+      "events_hosted": 3,
+      "achievements_earned": [
+        "1",
+        "2",
+        "3"
+      ],
+      "notifications": [
+        {
+          "id": "n3",
+          "title": "Event reminder",
+          "message": "Coding Bootcamp Q&A is in 1 hour",
+          "time": "30 min ago",
+          "read": false
+        }
+      ],
+      "settings": {
+        "max_distance_mi": 10,
+        "max_group_size": 50,
+        "notifications_enabled": true
+      }
+    },
+    {
+      "id": "u3",
+      "name": "Marcus Lee",
+      "email": "marcus.lee@example.com",
+      "location": "Kitchener, ON",
+      "interests": [
+        "Sports",
+        "Gaming",
+        "Social"
+      ],
+      "events_attended": 3,
+      "events_hosted": 0,
+      "achievements_earned": [
+        "1"
+      ],
+      "notifications": [
+        {
+          "id": "n4",
+          "title": "New event nearby!",
+          "message": "Board Game Night has an opening — 5 spots left",
+          "time": "15 min ago",
+          "read": false
+        },
+        {
+          "id": "n5",
+          "title": "Event reminder",
+          "message": "Basketball Pickup Game is tonight at 6 PM",
+          "time": "3 hours ago",
+          "read": false
+        }
+      ],
+      "settings": {
+        "max_distance_mi": 3,
+        "max_group_size": 15,
+        "notifications_enabled": true
+      }
+    },
+    {
+      "id": "u4",
+      "name": "Sofia Reyes",
+      "email": "sofia.reyes@example.com",
+      "location": "Cambridge, ON",
+      "interests": [
+        "Arts",
+        "Wellness",
+        "Travel"
+      ],
+      "events_attended": 5,
+      "events_hosted": 2,
+      "achievements_earned": [
+        "1",
+        "2"
+      ],
+      "notifications": [
+        {
+          "id": "n6",
+          "title": "You're registered!",
+          "message": "Photography Walk confirmed for Saturday at 10 AM",
+          "time": "1 day ago",
+          "read": true
+        }
+      ],
+      "settings": {
+        "max_distance_mi": 8,
+        "max_group_size": 10,
+        "notifications_enabled": true
+      }
+    },
+    {
+      "id": "u5",
+      "name": "Jordan Kim",
+      "email": "jordan.kim@example.com",
+      "location": "Hamilton, ON",
+      "interests": [
+        "Tech",
+        "Study",
+        "Gaming"
+      ],
+      "events_attended": 20,
+      "events_hosted": 5,
+      "achievements_earned": [
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
+      "notifications": [
+        {
+          "id": "n7",
+          "title": "Achievement unlocked!",
+          "message": "You earned the \"Host Master\" badge",
+          "time": "1 day ago",
+          "read": false
+        },
+        {
+          "id": "n8",
+          "title": "New attendee",
+          "message": "2 people just joined your Coding Bootcamp Q&A",
+          "time": "2 days ago",
+          "read": true
+        }
+      ],
+      "settings": {
+        "max_distance_mi": 20,
+        "max_group_size": 100,
+        "notifications_enabled": true
+      }
+    },
+    {
+      "id": "u6",
+      "name": "Amara Osei",
+      "email": "amara.osei@example.com",
+      "location": "Burlington, ON",
+      "interests": [
+        "Wellness",
+        "Food",
+        "Social"
+      ],
+      "events_attended": 9,
+      "events_hosted": 0,
+      "achievements_earned": [
+        "1",
+        "2"
+      ],
+      "notifications": [
+        {
+          "id": "n9",
+          "title": "Event reminder",
+          "message": "Yoga in the Park is tomorrow morning at 8 AM",
+          "time": "6 hours ago",
+          "read": false
+        }
+      ],
+      "settings": {
+        "max_distance_mi": 5,
+        "max_group_size": 25,
+        "notifications_enabled": true
+      }
+    },
+    {
+      "id": "u7",
+      "name": "Ethan Borg",
+      "email": "ethan.borg@example.com",
+      "location": "Oakville, ON",
+      "interests": [
+        "Sports",
+        "Music",
+        "Social"
+      ],
+      "events_attended": 1,
+      "events_hosted": 0,
+      "achievements_earned": [
+        "1"
+      ],
+      "notifications": [
+        {
+          "id": "n10",
+          "title": "Welcome to EventFlow!",
+          "message": "Start by joining your first event",
+          "time": "3 days ago",
+          "read": true
+        }
+      ],
+      "settings": {
+        "max_distance_mi": 2,
+        "max_group_size": 12,
+        "notifications_enabled": false
+      }
+    },
+    {
+      "id": "u8",
+      "name": "Nadia Tremblay",
+      "email": "nadia.tremblay@example.com",
+      "location": "Mississauga, ON",
+      "interests": [
+        "Arts",
+        "Study",
+        "Music"
+      ],
+      "events_attended": 14,
+      "events_hosted": 4,
+      "achievements_earned": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "notifications": [
+        {
+          "id": "n11",
+          "title": "Achievement unlocked!",
+          "message": "You earned the \"Explorer\" badge",
+          "time": "4 hours ago",
+          "read": false
+        },
+        {
+          "id": "n12",
+          "title": "Event reminder",
+          "message": "Group Study Night is tomorrow at 7 PM",
+          "time": "8 hours ago",
+          "read": true
+        }
+      ],
+      "settings": {
+        "max_distance_mi": 12,
+        "max_group_size": 30,
+        "notifications_enabled": true
+      }
+    },
+    {
+      "id": "u9",
+      "name": "Liam Foster",
+      "email": "liam.foster@example.com",
+      "location": "Brampton, ON",
+      "interests": [
+        "Gaming",
+        "Tech",
+        "Social"
+      ],
+      "events_attended": 6,
+      "events_hosted": 0,
+      "achievements_earned": [
+        "1",
+        "2"
+      ],
+      "notifications": [
+        {
+          "id": "n13",
+          "title": "Spots filling fast!",
+          "message": "Board Game Night only has 2 spots left",
+          "time": "20 min ago",
+          "read": false
+        }
+      ],
+      "settings": {
+        "max_distance_mi": 7,
+        "max_group_size": 20,
+        "notifications_enabled": true
+      }
+    },
+    {
+      "id": "u10",
+      "name": "Chloe Dupont",
+      "email": "chloe.dupont@example.com",
+      "location": "Guelph, ON",
+      "interests": [
+        "Wellness",
+        "Arts",
+        "Travel",
+        "Food"
+      ],
+      "events_attended": 18,
+      "events_hosted": 6,
+      "achievements_earned": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "notifications": [
+        {
+          "id": "n14",
+          "title": "You're a top host!",
+          "message": "Your events have an average rating of 4.8 ⭐",
+          "time": "1 day ago",
+          "read": false
+        },
+        {
+          "id": "n15",
+          "title": "New review",
+          "message": "Someone left a 5-star review on your Photography Walk",
+          "time": "2 days ago",
+          "read": true
+        }
+      ],
+      "settings": {
+        "max_distance_mi": 15,
+        "max_group_size": 50,
+        "notifications_enabled": true
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "title": "Basketball Pickup Game",
+      "host": "Mike Johnson",
+      "host_user_id": "u1",
+      "time": "Today, 6:00 PM",
+      "attendees": 8,
+      "max_attendees": 12,
+      "spots_left": 4,
+      "rating": 4.5,
+      "category": "Sports",
+      "description": "Casual pickup basketball game at the local court. All skill levels welcome!",
+      "distance": "0.3 mi",
+      "mode": "In-Person",
+      "registered_user_ids": [
+        "u1",
+        "u3",
+        "u6",
+        "u7",
+        "u9"
+      ],
+      "reviews": [
+        {
+          "id": "r1",
+          "user_name": "Marcus Lee",
+          "rating": 5,
+          "comment": "Super fun, great group!",
+          "date": "2 weeks ago"
+        },
+        {
+          "id": "r2",
+          "user_name": "Ethan Borg",
+          "rating": 4,
+          "comment": "Good game, would join again.",
+          "date": "1 week ago"
+        }
+      ],
+      "messages": [
+        {
+          "id": "m1",
+          "user_name": "Marcus Lee",
+          "user_id": "u3",
+          "content": "Can beginners join? I havent played in a while!",
+          "timestamp": "1 hour ago"
+        },
+        {
+          "id": "m2",
+          "user_name": "Alex Johnson",
+          "user_id": "u1",
+          "content": "Absolutely, all skill levels welcome!",
+          "timestamp": "55 min ago"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Group Study Night",
+      "host": "Study Squad",
+      "host_user_id": "u2",
+      "time": "Tomorrow, 7:00 PM",
+      "attendees": 12,
+      "max_attendees": 20,
+      "spots_left": 8,
+      "rating": 4.8,
+      "category": "Study",
+      "description": "Weekly group study session. Bring your books and laptops!",
+      "distance": "0.8 mi",
+      "mode": "Hybrid",
+      "registered_user_ids": [
+        "u2",
+        "u4",
+        "u8",
+        "u10"
+      ],
+      "reviews": [
+        {
+          "id": "r3",
+          "user_name": "Nadia Tremblay",
+          "rating": 5,
+          "comment": "Really productive session. Great atmosphere.",
+          "date": "3 days ago"
+        },
+        {
+          "id": "r4",
+          "user_name": "Priya Sharma",
+          "rating": 5,
+          "comment": "Best study group I've been to.",
+          "date": "1 week ago"
+        }
+      ],
+      "messages": [
+        {
+          "id": "m3",
+          "user_name": "Priya Sharma",
+          "user_id": "u2",
+          "content": "Will there be wifi available?",
+          "timestamp": "3 hours ago"
+        },
+        {
+          "id": "m4",
+          "user_name": "Nadia Tremblay",
+          "user_id": "u8",
+          "content": "Yes, fast wifi and plenty of power outlets!",
+          "timestamp": "2 hours ago"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Photography Walk",
+      "host": "Jane Smith",
+      "host_user_id": "u10",
+      "time": "Sat, 10:00 AM",
+      "attendees": 6,
+      "max_attendees": 8,
+      "spots_left": 2,
+      "rating": 4.2,
+      "category": "Arts",
+      "description": "Explore the city through your lens. All camera types welcome.",
+      "distance": "1.2 mi",
+      "mode": "In-Person",
+      "registered_user_ids": [
+        "u4",
+        "u8",
+        "u10"
+      ],
+      "reviews": [
+        {
+          "id": "r5",
+          "user_name": "Sofia Reyes",
+          "rating": 5,
+          "comment": "Amazing walk, learned so much!",
+          "date": "2 weeks ago"
+        },
+        {
+          "id": "r6",
+          "user_name": "Chloe Dupont",
+          "rating": 4,
+          "comment": "Beautiful route, friendly crowd.",
+          "date": "1 month ago"
+        }
+      ],
+      "messages": [
+        {
+          "id": "m5",
+          "user_name": "Sofia Reyes",
+          "user_id": "u4",
+          "content": "Can I bring my phone camera or do I need a DSLR?",
+          "timestamp": "2 days ago"
+        },
+        {
+          "id": "m6",
+          "user_name": "Chloe Dupont",
+          "user_id": "u10",
+          "content": "Any camera works — phone cameras are totally welcome!",
+          "timestamp": "2 days ago"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Board Game Night",
+      "host": "GameMasters",
+      "host_user_id": "u5",
+      "time": "Fri, 7:30 PM",
+      "attendees": 10,
+      "max_attendees": 15,
+      "spots_left": 5,
+      "rating": 4.9,
+      "category": "Social",
+      "description": "Monthly board game extravaganza. Games provided!",
+      "distance": "0.5 mi",
+      "mode": "In-Person",
+      "registered_user_ids": [
+        "u3",
+        "u5",
+        "u6",
+        "u9"
+      ],
+      "reviews": [
+        {
+          "id": "r7",
+          "user_name": "Liam Foster",
+          "rating": 5,
+          "comment": "Absolutely the best night out. Will be back every month.",
+          "date": "1 week ago"
+        },
+        {
+          "id": "r8",
+          "user_name": "Amara Osei",
+          "rating": 5,
+          "comment": "So well organized. Everyone was so welcoming.",
+          "date": "3 weeks ago"
+        }
+      ],
+      "messages": [
+        {
+          "id": "m7",
+          "user_name": "Liam Foster",
+          "user_id": "u9",
+          "content": "What games will be available?",
+          "timestamp": "1 day ago"
+        },
+        {
+          "id": "m8",
+          "user_name": "Jordan Kim",
+          "user_id": "u5",
+          "content": "Catan, Ticket to Ride, Codenames, and more!",
+          "timestamp": "23 hours ago"
+        },
+        {
+          "id": "m9",
+          "user_name": "Amara Osei",
+          "user_id": "u6",
+          "content": "This is my favourite event every month!",
+          "timestamp": "20 hours ago"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Yoga in the Park",
+      "host": "Wellness Hub",
+      "host_user_id": "u10",
+      "time": "Sun, 8:00 AM",
+      "attendees": 15,
+      "max_attendees": 20,
+      "spots_left": 5,
+      "rating": 4.7,
+      "category": "Wellness",
+      "description": "Start your Sunday with a peaceful yoga session outdoors.",
+      "distance": "0.4 mi",
+      "mode": "In-Person",
+      "registered_user_ids": [
+        "u4",
+        "u6",
+        "u8",
+        "u10"
+      ],
+      "reviews": [
+        {
+          "id": "r9",
+          "user_name": "Amara Osei",
+          "rating": 5,
+          "comment": "Perfect way to start the week. Very calming.",
+          "date": "4 days ago"
+        },
+        {
+          "id": "r10",
+          "user_name": "Nadia Tremblay",
+          "rating": 4,
+          "comment": "Loved the outdoor setting.",
+          "date": "2 weeks ago"
+        }
+      ],
+      "messages": [
+        {
+          "id": "m10",
+          "user_name": "Amara Osei",
+          "user_id": "u6",
+          "content": "Should I bring my own mat?",
+          "timestamp": "5 hours ago"
+        },
+        {
+          "id": "m11",
+          "user_name": "Chloe Dupont",
+          "user_id": "u10",
+          "content": "Bring one if you have it, but we have extras available.",
+          "timestamp": "4 hours ago"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Coding Bootcamp Q&A",
+      "host": "DevCircle",
+      "host_user_id": "u5",
+      "time": "Wed, 6:00 PM",
+      "attendees": 30,
+      "max_attendees": 50,
+      "spots_left": 20,
+      "rating": 4.6,
+      "category": "Tech",
+      "description": "Open Q&A for aspiring developers. No experience needed.",
+      "distance": "",
+      "mode": "Online",
+      "registered_user_ids": [
+        "u2",
+        "u5",
+        "u7",
+        "u9"
+      ],
+      "reviews": [
+        {
+          "id": "r11",
+          "user_name": "Jordan Kim",
+          "rating": 5,
+          "comment": "Super helpful for beginners. Great mentors.",
+          "date": "5 days ago"
+        },
+        {
+          "id": "r12",
+          "user_name": "Liam Foster",
+          "rating": 4,
+          "comment": "Good content, the hosts really know their stuff.",
+          "date": "3 weeks ago"
+        }
+      ],
+      "messages": [
+        {
+          "id": "m12",
+          "user_name": "Ethan Borg",
+          "user_id": "u7",
+          "content": "Is this suitable for complete beginners with no coding experience?",
+          "timestamp": "6 hours ago"
+        },
+        {
+          "id": "m13",
+          "user_name": "Jordan Kim",
+          "user_id": "u5",
+          "content": "Yes! We start from the very basics. Everyone is welcome.",
+          "timestamp": "5 hours ago"
+        },
+        {
+          "id": "m14",
+          "user_name": "Priya Sharma",
+          "user_id": "u2",
+          "content": "I went last month as a beginner and it was fantastic.",
+          "timestamp": "4 hours ago"
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": "1",
+      "title": "First Event",
+      "description": "Attend your first event",
+      "icon": "🎉",
+      "max_progress": 1
+    },
+    {
+      "id": "2",
+      "title": "Social Butterfly",
+      "description": "Attend 5 different events",
+      "icon": "🦋",
+      "max_progress": 5
+    },
+    {
+      "id": "3",
+      "title": "Team Player",
+      "description": "Attend 10 group events",
+      "icon": "🤝",
+      "max_progress": 10
+    },
+    {
+      "id": "4",
+      "title": "Explorer",
+      "description": "Try 5 different categories",
+      "icon": "🗺️",
+      "max_progress": 5
+    },
+    {
+      "id": "5",
+      "title": "Host Master",
+      "description": "Host 5 events",
+      "icon": "👑",
+      "max_progress": 5
+    }
+  ]
+}
